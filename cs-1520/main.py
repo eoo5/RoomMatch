@@ -55,7 +55,7 @@ def create_user():
 def get_user(): # for session checks
     return session.get('user', None)
 
-def get_Suitors(): # for getting list of elegible bacelor/bachloretes
+def get_Suitors(): # for getting list of potential roommates
     user = load_user(session['user'])
     intersect =user['yes'] + user['no'] + user['matched']
     query = datastore.Client().query(kind = 'testuser')
