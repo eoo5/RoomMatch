@@ -1,5 +1,5 @@
 # RoomMatch
-A web application made by me and 3 other students as a group project at the University of Pittsburgh. It's purpose is to help users find roommates by presenting them with a slideshow of other users, and an approve/disapprove button. It's matching mechanism allows users to only contact users they have mutually approved.
+A web application developed by me and three other students as a group project at the University of Pittsburgh. Its purpose is to help users find potential roommates by displaying a slideshow of profiles, each with an approve or disapprove button. Users can only contact others if both parties have mutually approved each other, ensuring meaningful connections.
 View it here at: https://cs1520-grouph.ue.r.appspot.com/
  Here is the homescreen, made using JavaScript for the animations and HTML/CCS. We also used flask templates and flask sessions to make each user's experience unique.
 <img width="1426" alt="Screen Shot 2023-01-03 at 3 20 46 AM" src="https://user-images.githubusercontent.com/71620030/210325310-e06f27c8-43b2-41d8-a5fa-da63a37a3672.png">
